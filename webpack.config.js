@@ -70,7 +70,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',
-      // eslint-disable-next-line no-dupe-keys
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
       filename: './200.html',
     }),
   ],
